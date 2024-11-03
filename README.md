@@ -41,6 +41,7 @@ npm run build
 yarn build
 ```
 ## Архитектура приложения
+![web-larek-uml](https://github.com/user-attachments/assets/70f00704-28be-4186-8624-03050432b2a8)
 
 ## Базовый код
 
