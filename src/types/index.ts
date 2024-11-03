@@ -46,8 +46,6 @@ export interface ICard {
   title: string,
   category: string,
   price: number | null,
-  count?: string,
-  buttonText? : string;
 }
 
 export interface ISuccess {
