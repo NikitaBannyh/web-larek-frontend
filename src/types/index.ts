@@ -46,7 +46,6 @@ export interface ICard {
   title: string,
   category: string,
   price: number | null,
-  count?: string,
 }
 
 export interface ISuccess {
@@ -80,14 +79,4 @@ export interface IOrder extends IOrdersDelivery, IOrdersContacts {
 export interface IOrderSuccess {
   id: string,
   total: number | null,
-}
-
-export type FormErrors = Partial<Record<keyof IOrder, string>>;
-
-export interface IActions {
-  onClick: (event: MouseEvent) => void;
-}
-
-export interface ISuccessActions {
-  onClick: () => void;
 }
